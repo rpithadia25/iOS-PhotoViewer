@@ -13,14 +13,13 @@
 		BA84CA78193D5DDF00C7BF0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA84CA76193D5DDF00C7BF0F /* InfoPlist.strings */; };
 		BA84CA7A193D5DDF00C7BF0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84CA79193D5DDF00C7BF0F /* main.m */; };
 		BA84CA7E193D5DDF00C7BF0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84CA7D193D5DDF00C7BF0F /* AppDelegate.m */; };
-		BA84CA81193D5DDF00C7BF0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA84CA7F193D5DDF00C7BF0F /* Main.storyboard */; };
-		BA84CA84193D5DDF00C7BF0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84CA83193D5DDF00C7BF0F /* ViewController.m */; };
 		BA84CA86193D5DDF00C7BF0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA84CA85193D5DDF00C7BF0F /* Images.xcassets */; };
 		BA84CA8D193D5DDF00C7BF0F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA84CA8C193D5DDF00C7BF0F /* XCTest.framework */; };
 		BA84CA8E193D5DDF00C7BF0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA84CA6D193D5DDF00C7BF0F /* Foundation.framework */; };
 		BA84CA8F193D5DDF00C7BF0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA84CA71193D5DDF00C7BF0F /* UIKit.framework */; };
 		BA84CA97193D5DDF00C7BF0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA84CA95193D5DDF00C7BF0F /* InfoPlist.strings */; };
 		BA84CA99193D5DDF00C7BF0F /* PhotoViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84CA98193D5DDF00C7BF0F /* PhotoViewerTests.m */; };
+		BA84CAA3193D606A00C7BF0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA84CAA2193D606A00C7BF0F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +43,13 @@
 		BA84CA7B193D5DDF00C7BF0F /* PhotoViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoViewer-Prefix.pch"; sourceTree = "<group>"; };
 		BA84CA7C193D5DDF00C7BF0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA84CA7D193D5DDF00C7BF0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BA84CA80193D5DDF00C7BF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA84CA82193D5DDF00C7BF0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BA84CA83193D5DDF00C7BF0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BA84CA85193D5DDF00C7BF0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BA84CA8B193D5DDF00C7BF0F /* PhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA84CA8C193D5DDF00C7BF0F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BA84CA94193D5DDF00C7BF0F /* PhotoViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoViewerTests-Info.plist"; sourceTree = "<group>"; };
 		BA84CA96193D5DDF00C7BF0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA84CA98193D5DDF00C7BF0F /* PhotoViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewerTests.m; sourceTree = "<group>"; };
+		BA84CAA2193D606A00C7BF0F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +111,7 @@
 			children = (
 				BA84CA7C193D5DDF00C7BF0F /* AppDelegate.h */,
 				BA84CA7D193D5DDF00C7BF0F /* AppDelegate.m */,
-				BA84CA7F193D5DDF00C7BF0F /* Main.storyboard */,
-				BA84CA82193D5DDF00C7BF0F /* ViewController.h */,
-				BA84CA83193D5DDF00C7BF0F /* ViewController.m */,
+				BA84CAA2193D606A00C7BF0F /* Main.storyboard */,
 				BA84CA85193D5DDF00C7BF0F /* Images.xcassets */,
 				BA84CA74193D5DDF00C7BF0F /* Supporting Files */,
 			);
@@ -228,9 +223,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA84CAA3193D606A00C7BF0F /* Main.storyboard in Resources */,
 				BA84CA86193D5DDF00C7BF0F /* Images.xcassets in Resources */,
 				BA84CA78193D5DDF00C7BF0F /* InfoPlist.strings in Resources */,
-				BA84CA81193D5DDF00C7BF0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA84CA84193D5DDF00C7BF0F /* ViewController.m in Sources */,
 				BA84CA7E193D5DDF00C7BF0F /* AppDelegate.m in Sources */,
 				BA84CA7A193D5DDF00C7BF0F /* main.m in Sources */,
 			);
@@ -280,14 +274,6 @@
 				BA84CA77193D5DDF00C7BF0F /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BA84CA7F193D5DDF00C7BF0F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA84CA80193D5DDF00C7BF0F /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		BA84CA95193D5DDF00C7BF0F /* InfoPlist.strings */ = {
