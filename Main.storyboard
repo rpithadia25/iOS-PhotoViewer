@@ -58,7 +58,7 @@
                     <navigationItem key="navigationItem" id="Vdy-xQ-8B1">
                         <barButtonItem key="rightBarButtonItem" title="Details" id="DU2-K1-cZF">
                             <connections>
-                                <segue destination="KKL-Km-8Qa" kind="modal" id="AKw-A6-sqP"/>
+                                <segue destination="KKL-Km-8Qa" kind="modal" modalTransitionStyle="partialCurl" id="AKw-A6-sqP"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
