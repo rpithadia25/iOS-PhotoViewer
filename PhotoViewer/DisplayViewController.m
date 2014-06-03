@@ -10,6 +10,8 @@
 
 @interface DisplayViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *currentImage;
+
 @end
 
 @implementation DisplayViewController
@@ -27,12 +29,21 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIImage *image = [UIImage imageNamed:self.currentPhoto.fileName];
+    [self.currentImage setImage:image];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    InfoViewController *ivc = [segue destinationViewController];
+    ivc.currentPhoto = self.currentPhoto;
+    
+    
 }
 
 /*

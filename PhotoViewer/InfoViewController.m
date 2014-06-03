@@ -10,9 +10,16 @@
 
 @interface InfoViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *detailsLabel;
+
 @end
 
 @implementation InfoViewController
+
+//this will close the details page and return to the image
+- (IBAction)dismiss:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +34,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.detailsLabel.text = [self.currentPhoto notes];
 }
 
 - (void)didReceiveMemoryWarning

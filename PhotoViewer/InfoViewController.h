@@ -11,4 +11,6 @@
 
 @interface InfoViewController : UIViewController
 
+@property (nonatomic) Photo *currentPhoto;
+
 @end

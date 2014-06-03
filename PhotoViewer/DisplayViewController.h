@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "Photo.h"
+#import "InfoViewController.h"
 
 @interface DisplayViewController : UIViewController
+
+@property (nonatomic) Photo *currentPhoto;
 
 @end
