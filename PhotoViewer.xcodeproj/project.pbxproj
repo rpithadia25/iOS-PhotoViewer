@@ -20,6 +20,10 @@
 		BA84CA97193D5DDF00C7BF0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA84CA95193D5DDF00C7BF0F /* InfoPlist.strings */; };
 		BA84CA99193D5DDF00C7BF0F /* PhotoViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84CA98193D5DDF00C7BF0F /* PhotoViewerTests.m */; };
 		BA84CAA3193D606A00C7BF0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA84CAA2193D606A00C7BF0F /* Main.storyboard */; };
+		BA84CAA6193D71B900C7BF0F /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84CAA5193D71B900C7BF0F /* Photo.m */; };
+		BA84CAA9193D722A00C7BF0F /* PhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84CAA8193D722A00C7BF0F /* PhotosTableViewController.m */; };
+		BA84CAAC193D725100C7BF0F /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84CAAB193D725100C7BF0F /* DisplayViewController.m */; };
+		BA84CAAF193D725E00C7BF0F /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84CAAE193D725E00C7BF0F /* InfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,14 @@
 		BA84CA96193D5DDF00C7BF0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA84CA98193D5DDF00C7BF0F /* PhotoViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewerTests.m; sourceTree = "<group>"; };
 		BA84CAA2193D606A00C7BF0F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		BA84CAA4193D71B900C7BF0F /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		BA84CAA5193D71B900C7BF0F /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		BA84CAA7193D722A00C7BF0F /* PhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosTableViewController.h; sourceTree = "<group>"; };
+		BA84CAA8193D722A00C7BF0F /* PhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosTableViewController.m; sourceTree = "<group>"; };
+		BA84CAAA193D725100C7BF0F /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		BA84CAAB193D725100C7BF0F /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		BA84CAAD193D725E00C7BF0F /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		BA84CAAE193D725E00C7BF0F /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +124,14 @@
 				BA84CA7C193D5DDF00C7BF0F /* AppDelegate.h */,
 				BA84CA7D193D5DDF00C7BF0F /* AppDelegate.m */,
 				BA84CAA2193D606A00C7BF0F /* Main.storyboard */,
+				BA84CAA7193D722A00C7BF0F /* PhotosTableViewController.h */,
+				BA84CAA8193D722A00C7BF0F /* PhotosTableViewController.m */,
+				BA84CAAA193D725100C7BF0F /* DisplayViewController.h */,
+				BA84CAAB193D725100C7BF0F /* DisplayViewController.m */,
+				BA84CAAD193D725E00C7BF0F /* InfoViewController.h */,
+				BA84CAAE193D725E00C7BF0F /* InfoViewController.m */,
+				BA84CAA4193D71B900C7BF0F /* Photo.h */,
+				BA84CAA5193D71B900C7BF0F /* Photo.m */,
 				BA84CA85193D5DDF00C7BF0F /* Images.xcassets */,
 				BA84CA74193D5DDF00C7BF0F /* Supporting Files */,
 			);
@@ -244,7 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA84CAAC193D725100C7BF0F /* DisplayViewController.m in Sources */,
+				BA84CAA6193D71B900C7BF0F /* Photo.m in Sources */,
+				BA84CAAF193D725E00C7BF0F /* InfoViewController.m in Sources */,
 				BA84CA7E193D5DDF00C7BF0F /* AppDelegate.m in Sources */,
+				BA84CAA9193D722A00C7BF0F /* PhotosTableViewController.m in Sources */,
 				BA84CA7A193D5DDF00C7BF0F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

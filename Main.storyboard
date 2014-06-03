@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Photos Table View Controller-->
         <scene sceneID="Gbg-AK-2pb">
             <objects>
-                <tableViewController id="nv3-BS-W1g" sceneMemberID="viewController">
+                <tableViewController id="nv3-BS-W1g" customClass="PhotosTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="cHQ-ga-R4D">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -36,10 +36,10 @@
             </objects>
             <point key="canvasLocation" x="752" y="8"/>
         </scene>
-        <!--View Controller-->
+        <!--Display View Controller-->
         <scene sceneID="7Lc-tl-E2T">
             <objects>
-                <viewController id="3Sk-JV-xHN" sceneMemberID="viewController">
+                <viewController id="3Sk-JV-xHN" customClass="DisplayViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="p3L-Cp-LuN"/>
                         <viewControllerLayoutGuide type="bottom" id="jLP-A4-egG"/>
@@ -67,10 +67,10 @@
             </objects>
             <point key="canvasLocation" x="1107" y="8"/>
         </scene>
-        <!--View Controller-->
+        <!--Info View Controller-->
         <scene sceneID="NtO-oG-rjS">
             <objects>
-                <viewController id="KKL-Km-8Qa" sceneMemberID="viewController">
+                <viewController id="KKL-Km-8Qa" customClass="InfoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Aor-uq-NPT"/>
                         <viewControllerLayoutGuide type="bottom" id="lAC-zA-lzf"/>
